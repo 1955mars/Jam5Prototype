@@ -1,1 +1,1 @@
-# Jam5Prototype
+Example of making an isometric 2D game.
