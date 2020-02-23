@@ -2779,6 +2779,78 @@
         "name": "Fake square UI.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Circle-Door-Closed(Right).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Circle-Door-Closed(Right).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Door-Open(Right).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Door-Open(Right).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Triangle-Door-Closed(Right).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Triangle-Door-Closed(Right).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Square-Door-Closed(Right).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Square-Door-Closed(Right).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Circle-Door-Closed(Left).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Circle-Door-Closed(Left).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Door-Open(Left).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Door-Open(Left).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Triangle-Door-Closed(Left).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Triangle-Door-Closed(Left).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Square-Door-Closed(Left).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Square-Door-Closed(Left).png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

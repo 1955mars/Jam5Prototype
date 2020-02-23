@@ -1239,8 +1239,8 @@
       "locked": false,
       "name": "Temporary",
       "width": 0,
-      "x": 430,
-      "y": 301,
+      "x": 741,
+      "y": 354,
       "zOrder": 5003,
       "numberProperties": [],
       "stringProperties": [],
@@ -1424,8 +1424,8 @@
       "locked": false,
       "name": "CircleKeyCollect",
       "width": 45,
-      "x": 766,
-      "y": 829,
+      "x": 209,
+      "y": 280,
       "zOrder": 5009,
       "numberProperties": [],
       "stringProperties": [],
@@ -1462,91 +1462,16 @@
       "initialVariables": []
     },
     {
-      "angle": -23,
-      "customSize": true,
+      "angle": 0,
+      "customSize": false,
       "height": 50,
       "layer": "",
       "locked": false,
-      "name": "CircleDoor",
+      "name": "CircleDoorRight",
       "width": 300,
-      "x": 244,
-      "y": 368,
-      "zOrder": 5012,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 23,
-      "customSize": true,
-      "height": 50,
-      "layer": "",
-      "locked": false,
-      "name": "SquareDoor",
-      "width": 300,
-      "x": 1048,
-      "y": 653,
-      "zOrder": 5013,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 23,
-      "customSize": true,
-      "height": 50,
-      "layer": "",
-      "locked": false,
-      "name": "TriangleDoor",
-      "width": 300,
-      "x": 165,
-      "y": 809,
-      "zOrder": 5014,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 23,
-      "customSize": true,
-      "height": 50,
-      "layer": "",
-      "locked": false,
-      "name": "TriangleDoor",
-      "width": 300,
-      "x": 1469,
-      "y": 347,
-      "zOrder": 5014,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 23,
-      "customSize": true,
-      "height": 50,
-      "layer": "",
-      "locked": false,
-      "name": "SquareDoor",
-      "width": 300,
-      "x": 1386,
-      "y": 380,
-      "zOrder": 5013,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": -23,
-      "customSize": true,
-      "height": 50,
-      "layer": "",
-      "locked": false,
-      "name": "CircleDoor",
-      "width": 300,
-      "x": 1074,
-      "y": 441,
-      "zOrder": 5012,
+      "x": 77,
+      "y": 31,
+      "zOrder": 500,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1592,6 +1517,81 @@
       "x": 524,
       "y": 715,
       "zOrder": 5010,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "TriangleDoorRight",
+      "width": 0,
+      "x": 718,
+      "y": -89,
+      "zOrder": 5015,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "SquareDoorRight",
+      "width": 0,
+      "x": 1247,
+      "y": 57,
+      "zOrder": 5020,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "TriangleDoorLeft",
+      "width": 0,
+      "x": -42,
+      "y": 429,
+      "zOrder": 5017,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "SquareDoorLeft",
+      "width": 0,
+      "x": 776,
+      "y": 305,
+      "zOrder": 5018,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "CircleDoorLeft",
+      "width": 0,
+      "x": 1141,
+      "y": -129,
+      "zOrder": 5019,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -12050,7 +12050,7 @@
       ]
     },
     {
-      "name": "CircleDoor",
+      "name": "CircleDoorLeft",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -12066,8 +12066,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "Fake circle UI.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "Assets/Object/Circle-Door-Closed(Left).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12080,7 +12080,74 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 240,
+                        "y": 360
+                      },
+                      {
+                        "x": 440,
+                        "y": 460
+                      },
+                      {
+                        "x": 400,
+                        "y": 480
+                      },
+                      {
+                        "x": 200,
+                        "y": 380
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Assets/Object/Door-Open(Left).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 360,
+                        "y": 460
+                      },
+                      {
+                        "x": 400,
+                        "y": 440
+                      },
+                      {
+                        "x": 440,
+                        "y": 460
+                      },
+                      {
+                        "x": 400,
+                        "y": 480
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -12089,7 +12156,7 @@
       ]
     },
     {
-      "name": "TriangleDoor",
+      "name": "CircleDoorRight",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -12105,8 +12172,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "Fake triangle UI.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "Assets/Object/Circle-Door-Closed(Right).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12119,7 +12186,74 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 200,
+                        "y": 460
+                      },
+                      {
+                        "x": 400,
+                        "y": 360
+                      },
+                      {
+                        "x": 440,
+                        "y": 380
+                      },
+                      {
+                        "x": 240,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Assets/Object/Door-Open(Right).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 200,
+                        "y": 460
+                      },
+                      {
+                        "x": 240,
+                        "y": 440
+                      },
+                      {
+                        "x": 280,
+                        "y": 460
+                      },
+                      {
+                        "x": 240,
+                        "y": 480
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -12128,7 +12262,7 @@
       ]
     },
     {
-      "name": "SquareDoor",
+      "name": "TriangleDoorLeft",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -12144,8 +12278,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "Fake square UI.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "Assets/Object/Triangle-Door-Closed(Left).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12158,7 +12292,392 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 240,
+                        "y": 360
+                      },
+                      {
+                        "x": 440,
+                        "y": 460
+                      },
+                      {
+                        "x": 400,
+                        "y": 480
+                      },
+                      {
+                        "x": 200,
+                        "y": 380
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Assets/Object/Door-Open(Left).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 360,
+                        "y": 460
+                      },
+                      {
+                        "x": 400,
+                        "y": 440
+                      },
+                      {
+                        "x": 440,
+                        "y": 460
+                      },
+                      {
+                        "x": 400,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TriangleDoorRight",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Assets/Object/Triangle-Door-Closed(Right).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 200,
+                        "y": 460
+                      },
+                      {
+                        "x": 400,
+                        "y": 360
+                      },
+                      {
+                        "x": 440,
+                        "y": 380
+                      },
+                      {
+                        "x": 240,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Assets/Object/Door-Open(Right).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 200,
+                        "y": 460
+                      },
+                      {
+                        "x": 240,
+                        "y": 440
+                      },
+                      {
+                        "x": 280,
+                        "y": 460
+                      },
+                      {
+                        "x": 240,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SquareDoorLeft",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Assets/Object/Square-Door-Closed(Left).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 240,
+                        "y": 360
+                      },
+                      {
+                        "x": 440,
+                        "y": 460
+                      },
+                      {
+                        "x": 400,
+                        "y": 480
+                      },
+                      {
+                        "x": 200,
+                        "y": 380
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Assets/Object/Door-Open(Left).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 360,
+                        "y": 460
+                      },
+                      {
+                        "x": 400,
+                        "y": 440
+                      },
+                      {
+                        "x": 440,
+                        "y": 460
+                      },
+                      {
+                        "x": 400,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SquareDoorRight",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Assets/Object/Square-Door-Closed(Right).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 200,
+                        "y": 460
+                      },
+                      {
+                        "x": 400,
+                        "y": 360
+                      },
+                      {
+                        "x": 440,
+                        "y": 380
+                      },
+                      {
+                        "x": 240,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Assets/Object/Door-Open(Right).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 200,
+                        "y": 460
+                      },
+                      {
+                        "x": 240,
+                        "y": 440
+                      },
+                      {
+                        "x": 280,
+                        "y": 460
+                      },
+                      {
+                        "x": 240,
+                        "y": 480
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -12576,7 +13095,41 @@
               },
               "parameters": [
                 "Minda",
-                "CircleDoor",
+                "CircleDoorLeft",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "HasCircleKey",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Minda",
+                "CircleDoorRight",
                 ""
               ],
               "subInstructions": []
@@ -12610,7 +13163,41 @@
               },
               "parameters": [
                 "Minda",
-                "TriangleDoor",
+                "TriangleDoorLeft",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "HasTriangleKey",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Minda",
+                "TriangleDoorRight",
                 ""
               ],
               "subInstructions": []
@@ -12644,7 +13231,41 @@
               },
               "parameters": [
                 "Minda",
-                "SquareDoor",
+                "SquareDoorLeft",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "HasSquareKey",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Minda",
+                "SquareDoorRight",
                 ""
               ],
               "subInstructions": []
@@ -12663,11 +13284,23 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "CircleDoor",
+                "CircleDoorLeft",
                 "Minda",
                 "",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "CircleDoorLeft",
+                "=",
+                "0"
               ],
               "subInstructions": []
             },
@@ -12688,11 +13321,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Delete"
+                "value": "ChangeAnimation"
               },
               "parameters": [
-                "CircleDoor",
-                ""
+                "CircleDoorLeft",
+                "=",
+                "1"
               ],
               "subInstructions": []
             },
@@ -12722,11 +13356,95 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "TriangleDoor",
+                "CircleDoorRight",
                 "Minda",
                 "",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "CircleDoorRight",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "HasCircleKey",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "CircleDoorRight",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "HasCircleKey",
+                "-",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TriangleDoorLeft",
+                "Minda",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "TriangleDoorLeft",
+                "=",
+                "0"
               ],
               "subInstructions": []
             },
@@ -12747,11 +13465,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Delete"
+                "value": "ChangeAnimation"
               },
               "parameters": [
-                "TriangleDoor",
-                ""
+                "TriangleDoorLeft",
+                "=",
+                "1"
               ],
               "subInstructions": []
             },
@@ -12781,11 +13500,95 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "SquareDoor",
+                "TriangleDoorRight",
                 "Minda",
                 "",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "TriangleDoorRight",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "HasTriangleKey",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "TriangleDoorRight",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "HasTriangleKey",
+                "-",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "SquareDoorRight",
+                "Minda",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "SquareDoorRight",
+                "=",
+                "0"
               ],
               "subInstructions": []
             },
@@ -12806,11 +13609,84 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Delete"
+                "value": "ChangeAnimation"
               },
               "parameters": [
-                "SquareDoor",
+                "SquareDoorRight",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "HasSquareKey",
+                "-",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "SquareDoorLeft",
+                "Minda",
+                "",
+                "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "SquareDoorLeft",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "HasSquareKey",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "SquareDoorLeft",
+                "=",
+                "1"
               ],
               "subInstructions": []
             },
