@@ -2851,6 +2851,114 @@
         "name": "Assets/Object/Square-Door-Closed(Left).png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/UI/Circle-Key-UI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/UI/Circle-Key-UI.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/UI/Triangle-Key-UI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/UI/Triangle-Key-UI.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/UI/Square-Key-UI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/UI/Square-Key-UI.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Circle-Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Circle-Key.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Triangle-Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Triangle-Key.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Square-Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Square-Key.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Ground Edge(Corner).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Ground Edge(Corner).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Ground Edge(Bottom Left).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Ground Edge(Bottom Left).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Ground Edge(Bottom Right).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Ground Edge(Bottom Right).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Background/Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Background/Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Stairs(Right).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Stairs(Right).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Stairs(Left).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Stairs(Left).png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2862,6 +2970,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/mygame"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/richardlevel"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
