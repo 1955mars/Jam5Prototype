@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.mindaworld",
-    "projectFile": "/Users/richardhetley/Documents/College Work/Cloned/Jam5Prototype/isometric-game.json",
+    "projectFile": "D:\\Documents\\College Stuff\\College Stuff\\4th Year\\Gameplay and Prototyping\\Jam 5\\Not Monument Valley\\isometric-game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -2959,6 +2959,69 @@
         "name": "Assets/Object/Stairs(Left).png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/GroundCropped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\GroundCropped.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Ground Edge(Corner)Cropped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\Ground Edge(Corner)Cropped.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Ground Edge(Bottom Left)Cropped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\Ground Edge(Bottom Left)Cropped.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Ground Edge(Bottom Right)Cropped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\Ground Edge(Bottom Right)Cropped.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Stairs(Left)Cropped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\Stairs(Left)Cropped.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Stairs(Right)Cropped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\Stairs(Right)Cropped.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Circle-Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\Circle-Key.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2974,6 +3037,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/richardlevel"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/davidlevel"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
