@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.mindaworld",
-    "projectFile": "D:\\Documents\\College Stuff\\College Stuff\\4th Year\\Gameplay and Prototyping\\Jam 5\\Not Monument Valley\\isometric-game.json",
+    "projectFile": "/Users/richardhetley/Documents/College Work/Cloned/Jam5Prototype/isometric-game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -3175,6 +3175,123 @@
         "name": "Assets\\UI\\Key-Square-UI.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/UI/Key-Circle-UI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/UI/Key-Circle-UI.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/UI/Key-Triangle-UI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/UI/Key-Triangle-UI.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/UI/Key-Square-UI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/UI/Key-Square-UI.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Key-Circle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Key-Circle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Key-Triangle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/Key-Triangle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New GroundCropped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New GroundCropped.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New Ground Edge (Corner)Cropped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New Ground Edge (Corner)Cropped.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New Ground Edge(Bottom Left)Cropped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New Ground Edge(Bottom Left)Cropped.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New Ground Edge (Bottom Right)Cropped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New Ground Edge (Bottom Right)Cropped.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New Ground Edge (Corner)-pipe-2Cropped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New Ground Edge (Corner)-pipe-2Cropped.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New Ground Edge (Corner)-pipe-3Cropped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New Ground Edge (Corner)-pipe-3Cropped.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New Ground Edge (Corner)-pipe-4Cropped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New Ground Edge (Corner)-pipe-4Cropped.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New Ground Edge (Bottom Right)-pipe-2Cropped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New Ground Edge (Bottom Right)-pipe-2Cropped.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

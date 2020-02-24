@@ -22,7 +22,7 @@
     "gridWidth": 50,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.5168
+    "zoomFactor": 0.9488
   },
   "objectsGroups": [
     {
@@ -70,7 +70,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 4
+          "value": 8
         }
       ],
       "stringProperties": [],
@@ -159,13 +159,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 100,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 100,
-      "y": 350,
+      "width": 200,
+      "x": 150,
+      "y": 400,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -174,43 +174,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 300,
-      "y": 450,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 300,
-      "layer": "",
-      "locked": false,
-      "name": "Tilebg",
-      "width": 300,
-      "x": 400,
+      "width": 200,
+      "x": 150,
       "y": 500,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 300,
-      "layer": "",
-      "locked": false,
-      "name": "Tilebg",
-      "width": 300,
-      "x": 100,
-      "y": 450,
       "zOrder": 0,
       "numberProperties": [
         {
@@ -224,18 +194,18 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 900,
-      "y": 450,
+      "width": 200,
+      "x": 950,
+      "y": 500,
       "zOrder": 1,
       "numberProperties": [
         {
           "name": "animation",
-          "value": 1
+          "value": 6
         }
       ],
       "stringProperties": [],
@@ -244,18 +214,18 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 100,
-      "y": 550,
+      "width": 200,
+      "x": 154,
+      "y": 600,
       "zOrder": 1,
       "numberProperties": [
         {
           "name": "animation",
-          "value": 3
+          "value": 4
         }
       ],
       "stringProperties": [],
@@ -264,18 +234,18 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 300,
-      "y": 550,
+      "width": 200,
+      "x": 350,
+      "y": 600,
       "zOrder": 1,
       "numberProperties": [
         {
           "name": "animation",
-          "value": 1
+          "value": 7
         }
       ],
       "stringProperties": [],
@@ -284,12 +254,12 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 300,
+      "width": 200,
+      "x": 250,
       "y": 350,
       "zOrder": 0,
       "numberProperties": [
@@ -304,97 +274,17 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 0,
-      "y": 400,
-      "zOrder": 1,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 300,
-      "layer": "",
-      "locked": false,
-      "name": "Tilebg",
-      "width": 300,
-      "x": 600,
-      "y": 500,
-      "zOrder": 1,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 3
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 300,
-      "layer": "",
-      "locked": false,
-      "name": "Tilebg",
-      "width": 300,
-      "x": 500,
+      "width": 200,
+      "x": 50,
       "y": 450,
       "zOrder": 1,
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 300,
-      "layer": "",
-      "locked": false,
-      "name": "Tilebg",
-      "width": 300,
-      "x": 200,
-      "y": 500,
-      "zOrder": 1,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 0
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 300,
-      "layer": "",
-      "locked": false,
-      "name": "Tilebg",
-      "width": 300,
-      "x": 0,
-      "y": 300,
-      "zOrder": 0,
-      "numberProperties": [
-        {
-          "name": "animation",
           "value": 2
         }
       ],
@@ -404,118 +294,18 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 200,
-      "y": 400,
-      "zOrder": 1,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 0
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 300,
-      "layer": "",
-      "locked": false,
-      "name": "Tilebg",
-      "width": 300,
-      "x": 700,
-      "y": 450,
-      "zOrder": 1,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 3
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 300,
-      "layer": "",
-      "locked": false,
-      "name": "Tilebg",
-      "width": 300,
-      "x": 1000,
-      "y": 400,
-      "zOrder": 1,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 3
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 300,
-      "layer": "",
-      "locked": false,
-      "name": "Tilebg",
-      "width": 300,
-      "x": 1000,
-      "y": 300,
-      "zOrder": 0,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 300,
-      "layer": "",
-      "locked": false,
-      "name": "Tilebg",
-      "width": 300,
-      "x": 1100,
-      "y": 350,
-      "zOrder": 1,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 3
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 300,
-      "layer": "",
-      "locked": false,
-      "name": "Tilebg",
-      "width": 300,
-      "x": 500,
+      "width": 200,
+      "x": 650,
       "y": 550,
       "zOrder": 1,
       "numberProperties": [
         {
           "name": "animation",
-          "value": 1
+          "value": 3
         }
       ],
       "stringProperties": [],
@@ -524,12 +314,112 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 0,
+      "width": 200,
+      "x": 50,
+      "y": 350,
+      "zOrder": 0,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200,
+      "layer": "",
+      "locked": false,
+      "name": "Tilebg",
+      "width": 200,
+      "x": 750,
+      "y": 500,
+      "zOrder": 1,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200,
+      "layer": "",
+      "locked": false,
+      "name": "Tilebg",
+      "width": 200,
+      "x": 1050,
+      "y": 450,
+      "zOrder": 1,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200,
+      "layer": "",
+      "locked": false,
+      "name": "Tilebg",
+      "width": 200,
+      "x": 1050,
+      "y": 350,
+      "zOrder": 0,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200,
+      "layer": "",
+      "locked": false,
+      "name": "Tilebg",
+      "width": 200,
+      "x": 1150,
+      "y": 400,
+      "zOrder": 1,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200,
+      "layer": "",
+      "locked": false,
+      "name": "Tilebg",
+      "width": 200,
+      "x": 550,
       "y": 600,
       "zOrder": 1,
       "numberProperties": [
@@ -544,18 +434,18 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 800,
-      "y": 400,
+      "width": 200,
+      "x": 52,
+      "y": 650,
       "zOrder": 1,
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 7
         }
       ],
       "stringProperties": [],
@@ -584,8 +474,8 @@
       "locked": false,
       "name": "CircleDoorLeft",
       "width": 300,
-      "x": 300,
-      "y": 250,
+      "x": 200,
+      "y": 200,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -609,18 +499,18 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 400,
+      "width": 200,
+      "x": 354,
       "y": 300,
       "zOrder": 1,
       "numberProperties": [
         {
           "name": "animation",
-          "value": 3
+          "value": 4
         }
       ],
       "stringProperties": [],
@@ -629,13 +519,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 900,
-      "y": 250,
+      "width": 200,
+      "x": 950,
+      "y": 300,
       "zOrder": 1,
       "numberProperties": [
         {
@@ -649,12 +539,12 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 500,
+      "width": 200,
+      "x": 450,
       "y": 250,
       "zOrder": 1,
       "numberProperties": [
@@ -669,13 +559,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 1000,
-      "y": 200,
+      "width": 200,
+      "x": 1050,
+      "y": 250,
       "zOrder": -1,
       "numberProperties": [
         {
@@ -689,18 +579,18 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 1100,
-      "y": 150,
+      "width": 200,
+      "x": 1152,
+      "y": 200,
       "zOrder": 1,
       "numberProperties": [
         {
           "name": "animation",
-          "value": 3
+          "value": 4
         }
       ],
       "stringProperties": [],
@@ -709,13 +599,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 900,
-      "y": -250,
+      "width": 200,
+      "x": 950,
+      "y": -200,
       "zOrder": 1,
       "numberProperties": [
         {
@@ -729,13 +619,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 900,
-      "y": 150,
+      "width": 200,
+      "x": 950,
+      "y": 200,
       "zOrder": 0,
       "numberProperties": [
         {
@@ -749,38 +639,18 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 700,
-      "y": 50,
-      "zOrder": 1,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 300,
-      "layer": "",
-      "locked": false,
-      "name": "Tilebg",
-      "width": 300,
-      "x": 1200,
+      "width": 200,
+      "x": 750,
       "y": 100,
       "zOrder": 1,
       "numberProperties": [
         {
           "name": "animation",
-          "value": 3
+          "value": 2
         }
       ],
       "stringProperties": [],
@@ -789,13 +659,33 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 800,
-      "y": 0,
+      "width": 200,
+      "x": 1253,
+      "y": 150,
+      "zOrder": 1,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200,
+      "layer": "",
+      "locked": false,
+      "name": "Tilebg",
+      "width": 200,
+      "x": 850,
+      "y": 50,
       "zOrder": 0,
       "numberProperties": [
         {
@@ -809,13 +699,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 900,
-      "y": -50,
+      "width": 200,
+      "x": 950,
+      "y": 0,
       "zOrder": 1,
       "numberProperties": [
         {
@@ -849,8 +739,8 @@
       "locked": false,
       "name": "SquareDoorLeft",
       "width": 300,
-      "x": 1200,
-      "y": 0,
+      "x": 1100,
+      "y": 50,
       "zOrder": 10,
       "numberProperties": [
         {
@@ -864,12 +754,52 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 1000,
+      "width": 200,
+      "x": 1053,
+      "y": -50,
+      "zOrder": 1,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200,
+      "layer": "",
+      "locked": false,
+      "name": "Tilebg",
+      "width": 200,
+      "x": 1350,
+      "y": 100,
+      "zOrder": 1,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200,
+      "layer": "",
+      "locked": false,
+      "name": "Tilebg",
+      "width": 200,
+      "x": 1150,
       "y": -100,
       "zOrder": 1,
       "numberProperties": [
@@ -884,53 +814,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 1300,
-      "y": 50,
-      "zOrder": 1,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 3
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 300,
-      "layer": "",
-      "locked": false,
-      "name": "Tilebg",
-      "width": 300,
-      "x": 1100,
+      "width": 200,
+      "x": 1050,
       "y": -150,
-      "zOrder": 1,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 3
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 300,
-      "layer": "",
-      "locked": false,
-      "name": "Tilebg",
-      "width": 300,
-      "x": 1000,
-      "y": -200,
       "zOrder": 0,
       "numberProperties": [
         {
@@ -964,8 +854,8 @@
       "locked": false,
       "name": "TriangleKeyCollect",
       "width": 150,
-      "x": 589,
-      "y": 275,
+      "x": 483,
+      "y": 213,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -989,13 +879,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
-      "width": 300,
-      "x": 800,
-      "y": 100,
+      "width": 200,
+      "x": 850,
+      "y": 150,
       "zOrder": 1,
       "numberProperties": [
         {
@@ -1169,8 +1059,8 @@
       "locked": false,
       "name": "Obstacle",
       "width": 227,
-      "x": 159,
-      "y": 384,
+      "x": 351,
+      "y": 478,
       "zOrder": 5001,
       "numberProperties": [],
       "stringProperties": [],
@@ -1214,8 +1104,8 @@
       "locked": false,
       "name": "Obstacle",
       "width": 123,
-      "x": 461,
-      "y": 511,
+      "x": 143,
+      "y": 346,
       "zOrder": 5001,
       "numberProperties": [],
       "stringProperties": [],
@@ -1259,8 +1149,8 @@
       "locked": false,
       "name": "Obstacle",
       "width": 123,
-      "x": 652,
-      "y": 311,
+      "x": 550,
+      "y": 250,
       "zOrder": 5001,
       "numberProperties": [],
       "stringProperties": [],
@@ -1454,8 +1344,8 @@
       "locked": false,
       "name": "Obstacle",
       "width": 340,
-      "x": 465,
-      "y": 422,
+      "x": 225,
+      "y": 294,
       "zOrder": 5001,
       "numberProperties": [],
       "stringProperties": [],
@@ -1469,8 +1359,8 @@
       "locked": false,
       "name": "Obstacle",
       "width": 340,
-      "x": 342,
-      "y": 353,
+      "x": 345,
+      "y": 361,
       "zOrder": 5001,
       "numberProperties": [],
       "stringProperties": [],
@@ -1547,6 +1437,96 @@
       "x": 704,
       "y": 45,
       "zOrder": 5001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 100,
+      "layer": "",
+      "locked": false,
+      "name": "Tilebg",
+      "width": 200,
+      "x": 250,
+      "y": 550,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 100,
+      "layer": "",
+      "locked": false,
+      "name": "Tilebg",
+      "width": 200,
+      "x": 250,
+      "y": 450,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 100,
+      "layer": "",
+      "locked": false,
+      "name": "Tilebg",
+      "width": 200,
+      "x": 350,
+      "y": 500,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 100,
+      "layer": "",
+      "locked": false,
+      "name": "Tilebg",
+      "width": 200,
+      "x": 550,
+      "y": 500,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 100,
+      "layer": "",
+      "locked": false,
+      "name": "Tilebg",
+      "width": 200,
+      "x": 450,
+      "y": 550,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 100,
+      "layer": "",
+      "locked": false,
+      "name": "Tilebg",
+      "width": 200,
+      "x": 850,
+      "y": 450,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -10378,7 +10358,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets/Object/Ground.png",
+                  "image": "Assets/Object/New GroundCropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10430,7 +10410,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets/Object/Ground Edge(Corner).png",
+                  "image": "Assets/Object/New Ground Edge (Corner)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10482,7 +10462,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets/Object/Ground Edge(Bottom Left).png",
+                  "image": "Assets/Object/New Ground Edge(Bottom Left)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10534,7 +10514,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets/Object/Ground Edge(Bottom Right).png",
+                  "image": "Assets/Object/New Ground Edge (Bottom Right)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10586,7 +10566,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets/Background/Background.png",
+                  "image": "Assets/Object/New Ground Edge (Bottom Right)-pipe-2Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10623,6 +10603,122 @@
                       }
                     ]
                   ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets/Object/New Ground Edge (Corner)-pipe-2Cropped.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets/Object/New Ground Edge (Corner)-pipe-3Cropped.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets/Object/New Ground Edge (Corner)-pipe-4Cropped.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets/Background/Background.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -10697,7 +10793,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets/UI/Circle-Key-UI.png",
+                  "image": "Assets/UI/Key-Circle-UI.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10736,7 +10832,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets/UI/Triangle-Key-UI.png",
+                  "image": "Assets/UI/Key-Triangle-UI.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10775,7 +10871,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets/UI/Square-Key-UI.png",
+                  "image": "Assets/UI/Key-Square-UI.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10814,7 +10910,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Circle-Key.png",
+                  "image": "Assets/Object/Key-Circle.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10880,7 +10976,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Triangle-Key.png",
+                  "image": "Assets/Object/Key-Triangle.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10934,7 +11030,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Square-Key.png",
+                  "image": "Assets/Object/Key-Triangle.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12735,6 +12831,78 @@
             {
               "type": {
                 "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TopDownMovementBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Minda",
+                "TopDownMovement",
+                "=",
+                "500"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TopDownMovementBehavior::AngularMaxSpeed"
+              },
+              "parameters": [
+                "Minda",
+                "TopDownMovement",
+                "=",
+                "500"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TopDownMovementBehavior::Deceleration"
+              },
+              "parameters": [
+                "Minda",
+                "TopDownMovement",
+                "=",
+                "10000"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TopDownMovementBehavior::Acceleration"
+              },
+              "parameters": [
+                "Minda",
+                "TopDownMovement",
+                "=",
+                "10000"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "TopDownMovementBehavior::IsMoving"
               },
               "parameters": [
@@ -13010,27 +13178,14 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Handle collision (no conditions is necessary, the actions takes care of handling everything)",
+          "comment": "Handle collision (no condition is necessary, the action takes care of handling everything)",
           "comment2": ""
         },
         {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "Collected",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
+          "conditions": [],
           "actions": [
             {
               "type": {

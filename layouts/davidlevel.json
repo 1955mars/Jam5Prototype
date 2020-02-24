@@ -15482,78 +15482,6 @@
         {
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TopDownMovementBehavior::MaxSpeed"
-              },
-              "parameters": [
-                "Minda",
-                "TopDownMovement",
-                "=",
-                "500"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TopDownMovementBehavior::AngularMaxSpeed"
-              },
-              "parameters": [
-                "Minda",
-                "TopDownMovement",
-                "=",
-                "500"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TopDownMovementBehavior::Deceleration"
-              },
-              "parameters": [
-                "Minda",
-                "TopDownMovement",
-                "=",
-                "10000"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TopDownMovementBehavior::Acceleration"
-              },
-              "parameters": [
-                "Minda",
-                "TopDownMovement",
-                "=",
-                "10000"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -16428,6 +16356,78 @@
             {
               "type": {
                 "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TopDownMovementBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Minda",
+                "TopDownMovement",
+                "=",
+                "500"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TopDownMovementBehavior::AngularMaxSpeed"
+              },
+              "parameters": [
+                "Minda",
+                "TopDownMovement",
+                "=",
+                "500"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TopDownMovementBehavior::Deceleration"
+              },
+              "parameters": [
+                "Minda",
+                "TopDownMovement",
+                "=",
+                "10000"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TopDownMovementBehavior::Acceleration"
+              },
+              "parameters": [
+                "Minda",
+                "TopDownMovement",
+                "=",
+                "10000"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "TopDownMovementBehavior::IsMoving"
               },
               "parameters": [
@@ -16853,27 +16853,14 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Handle collision (no conditions is necessary, the actions takes care of handling everything)",
+          "comment": "Handle collision (no condition is necessary, the action takes care of handling everything)",
           "comment2": ""
         },
         {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "Collected",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
+          "conditions": [],
           "actions": [
             {
               "type": {
@@ -16898,7 +16885,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Camera",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
