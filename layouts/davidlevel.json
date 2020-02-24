@@ -22,7 +22,7 @@
     "gridWidth": 50,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.22
+    "zoomFactor": 0.61
   },
   "objectsGroups": [
     {
@@ -169,7 +169,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 3
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -189,7 +189,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 3
+          "value": 6
         }
       ],
       "stringProperties": [],
@@ -209,7 +209,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 3
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -233,7 +233,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -244,7 +244,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -264,7 +264,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 3
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -273,7 +273,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -284,7 +284,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -304,7 +304,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 2
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -313,7 +313,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -324,7 +324,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -344,7 +344,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 2
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -353,7 +353,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -364,7 +364,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -373,7 +373,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -384,7 +384,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -424,7 +424,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 3
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -668,7 +668,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -679,7 +679,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -688,7 +688,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -699,7 +699,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -719,7 +719,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 2
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -739,7 +739,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 3
+          "value": 6
         }
       ],
       "stringProperties": [],
@@ -748,7 +748,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -759,7 +759,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -768,7 +768,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -779,7 +779,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -799,7 +799,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 3
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -808,7 +808,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -819,7 +819,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -839,7 +839,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 3
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -859,7 +859,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 2
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -868,7 +868,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -879,7 +879,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -888,7 +888,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -899,7 +899,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -919,7 +919,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 2
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -928,7 +928,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -939,7 +939,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -948,7 +948,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -959,7 +959,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -968,7 +968,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -979,7 +979,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -988,7 +988,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -999,7 +999,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -1008,7 +1008,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 200,
       "layer": "",
       "locked": false,
       "name": "Tilebg",
@@ -1019,7 +1019,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -1039,7 +1039,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 3
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -1539,7 +1539,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 2
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -1559,7 +1559,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 2
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -1832,7 +1832,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 1
+          "value": 6
         }
       ],
       "stringProperties": [],
@@ -2216,7 +2216,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 1
+          "value": 5
         }
       ],
       "stringProperties": [],
@@ -2529,7 +2529,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 1
+          "value": 6
         }
       ],
       "stringProperties": [],
@@ -2812,46 +2812,6 @@
           "value": "500"
         }
       ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 100,
-      "layer": "",
-      "locked": false,
-      "name": "Tilebg",
-      "width": 200,
-      "x": 960,
-      "y": 72.8572,
-      "zOrder": -10,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 0
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 100,
-      "layer": "",
-      "locked": false,
-      "name": "Tilebg",
-      "width": 200,
-      "x": 1011.43,
-      "y": 58.5715,
-      "zOrder": -10,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 0
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
     },
     {
       "angle": 0,
@@ -12367,7 +12327,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Ground Edge(Corner)Cropped.png",
+                  "image": "Assets\\Object\\New Ground Edge (Corner)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12419,7 +12379,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Ground Edge(Bottom Left)Cropped.png",
+                  "image": "Assets\\Object\\New Ground Edge(Bottom Left)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12471,7 +12431,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Ground Edge(Bottom Right)Cropped.png",
+                  "image": "Assets\\Object\\New Ground Edge (Bottom Right)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12560,6 +12520,122 @@
                       }
                     ]
                   ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\Object\\New Ground Edge (Corner)-pipe-2Cropped.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\Object\\New Ground Edge (Corner)-pipe-3Cropped.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\Object\\New Ground Edge (Bottom Right)-pipe-2Cropped.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\Object\\New Ground Edge (Corner)-pipe-4Cropped.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -14099,7 +14175,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Ground Edge(Corner)Cropped.png",
+                  "image": "Assets\\Object\\New Ground Edge (Corner)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14160,7 +14236,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Ground Edge(Corner)Cropped.png",
+                  "image": "Assets\\Object\\New Ground Edge (Corner)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14221,7 +14297,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Ground Edge(Corner)Cropped.png",
+                  "image": "Assets\\Object\\New Ground Edge (Corner)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14282,7 +14358,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Ground Edge(Corner)Cropped.png",
+                  "image": "Assets\\Object\\New Ground Edge (Corner)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14343,7 +14419,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Ground Edge(Corner)Cropped.png",
+                  "image": "Assets\\Object\\New Ground Edge (Corner)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14396,7 +14472,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Ground Edge(Corner)Cropped.png",
+                  "image": "Assets\\Object\\New Ground Edge (Corner)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14449,7 +14525,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Ground Edge(Corner)Cropped.png",
+                  "image": "Assets\\Object\\New Ground Edge (Corner)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14498,7 +14574,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Ground Edge(Corner)Cropped.png",
+                  "image": "Assets\\Object\\New Ground Edge (Corner)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14551,7 +14627,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Ground Edge(Corner)Cropped.png",
+                  "image": "Assets\\Object\\New Ground Edge (Corner)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14600,7 +14676,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Ground Edge(Corner)Cropped.png",
+                  "image": "Assets\\Object\\New Ground Edge (Corner)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
