@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.mindaworld",
-    "projectFile": "D:\\Profiles\\rsh5353\\Documents\\Cloned\\Jam5Prototype\\isometric-game.json",
+    "projectFile": "C:\\Users\\Jarrett\\Desktop\\RIT\\Year 4 Semester 2\\Gameplay Prototyping\\Jam5Prototype\\isometric-game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -3337,6 +3337,24 @@
         "name": "Assets\\Background\\Background6.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New Ground Edge (Corner)-pipe-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\New Ground Edge (Corner)-pipe-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New Ground Edge (Corner)-pipe-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\New Ground Edge (Corner)-pipe-2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3356,6 +3374,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/davidlevel"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/jarrettlevel"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
