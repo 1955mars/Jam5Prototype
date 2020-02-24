@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.mindaworld",
-    "projectFile": "/Users/richardhetley/Documents/College Work/Cloned/Jam5Prototype/isometric-game.json",
+    "projectFile": "D:\\Profiles\\rsh5353\\Documents\\Cloned\\Jam5Prototype\\isometric-game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -3292,6 +3292,51 @@
         "name": "Assets/Object/New Ground Edge (Bottom Right)-pipe-2Cropped.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Background/Background2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Background\\Background2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Background/Background3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Background\\Background3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Background/Background4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Background\\Background4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Background/Background5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Background\\Background5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Background/Background6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Background\\Background6.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

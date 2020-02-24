@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.mindaworld",
-    "projectFile": "/Users/richardhetley/Documents/College Work/Cloned/Jam5Prototype/isometric-game.json",
+    "projectFile": "D:\\Profiles\\rsh5353\\Documents\\Cloned\\Jam5Prototype\\isometric-game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -3292,6 +3292,51 @@
         "name": "Assets/Object/New Ground Edge (Bottom Right)-pipe-2Cropped.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Background/Background2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Background\\Background2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Background/Background3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Background\\Background3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Background/Background4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Background\\Background4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Background/Background5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Background\\Background5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Background/Background6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Background\\Background6.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -15074,7 +15119,7 @@
       "title": "Game",
       "v": 49,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 50,
@@ -15082,9 +15127,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 50,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.6848
+        "zoomFactor": 0.5888
       },
       "objectsGroups": [
         {
@@ -15132,7 +15177,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 8
+              "value": 9
             }
           ],
           "stringProperties": [],
@@ -15283,7 +15328,7 @@
           "width": 200,
           "x": 154,
           "y": 600,
-          "zOrder": 1,
+          "zOrder": 2,
           "numberProperties": [
             {
               "name": "animation",
@@ -15416,7 +15461,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 200,
+          "height": 100,
           "layer": "",
           "locked": false,
           "name": "Tilebg",
@@ -15427,7 +15472,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 3
+              "value": 0
             }
           ],
           "stringProperties": [],
@@ -15463,7 +15508,7 @@
           "width": 200,
           "x": 1150,
           "y": 400,
-          "zOrder": 1,
+          "zOrder": 0,
           "numberProperties": [
             {
               "name": "animation",
@@ -15568,7 +15613,7 @@
           "width": 200,
           "x": 354,
           "y": 300,
-          "zOrder": 1,
+          "zOrder": 2,
           "numberProperties": [
             {
               "name": "animation",
@@ -15648,7 +15693,7 @@
           "width": 200,
           "x": 1152,
           "y": 200,
-          "zOrder": 1,
+          "zOrder": 3,
           "numberProperties": [
             {
               "name": "animation",
@@ -15728,7 +15773,7 @@
           "width": 200,
           "x": 1253,
           "y": 150,
-          "zOrder": 1,
+          "zOrder": 2,
           "numberProperties": [
             {
               "name": "animation",
@@ -15801,8 +15846,8 @@
           "locked": false,
           "name": "SquareDoorLeft",
           "width": 300,
-          "x": 1100,
-          "y": 50,
+          "x": 1200,
+          "y": 0,
           "zOrder": 10,
           "numberProperties": [
             {
@@ -15823,7 +15868,7 @@
           "width": 200,
           "x": 1053,
           "y": -50,
-          "zOrder": 1,
+          "zOrder": 2,
           "numberProperties": [
             {
               "name": "animation",
@@ -15899,25 +15944,10 @@
           "height": 150,
           "layer": "",
           "locked": false,
-          "name": "CircleKeyCollect",
-          "width": 150,
-          "x": 1392,
-          "y": 72,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 150,
-          "layer": "",
-          "locked": false,
           "name": "TriangleKeyCollect",
           "width": 150,
-          "x": 483,
-          "y": 213,
+          "x": 484,
+          "y": 209,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -16391,21 +16421,6 @@
           "locked": false,
           "name": "Obstacle",
           "width": 340,
-          "x": 1055,
-          "y": 530,
-          "zOrder": 5001,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": -26.5566,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "locked": false,
-          "name": "Obstacle",
-          "width": 340,
           "x": 225,
           "y": 294,
           "zOrder": 5001,
@@ -16589,6 +16604,786 @@
           "x": 850,
           "y": 450,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 1150,
+          "y": 500,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 1250,
+          "y": 550,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 1350,
+          "y": 600,
+          "zOrder": -1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 300,
+          "layer": "",
+          "locked": false,
+          "name": "TriangleDoorRight",
+          "width": 300,
+          "x": 1200,
+          "y": 400,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 150,
+          "layer": "",
+          "locked": false,
+          "name": "TriangleKeyCollect",
+          "width": 150,
+          "x": 1387,
+          "y": 67,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 1350,
+          "y": 700,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 1450,
+          "y": 650,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 1250,
+          "y": 750,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 1150,
+          "y": 800,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 1350,
+          "y": 800,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 1450,
+          "y": 850,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 300,
+          "layer": "",
+          "locked": false,
+          "name": "SquareDoorRight",
+          "width": 300,
+          "x": 1400,
+          "y": 700,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 1550,
+          "y": 900,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 7
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 1050,
+          "y": 850,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 150,
+          "layer": "",
+          "locked": false,
+          "name": "TriangleKeyCollect",
+          "width": 150,
+          "x": 1586,
+          "y": 860,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 1550,
+          "y": 600,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 1550,
+          "y": 700,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 1652,
+          "y": 650,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 150,
+          "layer": "",
+          "locked": false,
+          "name": "SquareKeyCollect",
+          "width": 150,
+          "x": 1580,
+          "y": 614,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 300,
+          "layer": "",
+          "locked": false,
+          "name": "TriangleDoorLeft",
+          "width": 300,
+          "x": 1000,
+          "y": 700,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 1150,
+          "y": 800,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 950,
+          "y": 900,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 850,
+          "y": 850,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 950,
+          "y": 1000,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 850,
+          "y": 950,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 750,
+          "y": 900,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "locked": false,
+          "name": "Tilebg",
+          "width": 200,
+          "x": 1050,
+          "y": 950,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 150,
+          "layer": "",
+          "locked": false,
+          "name": "CircleKeyCollect",
+          "width": 150,
+          "x": 919,
+          "y": 892,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 227,
+          "x": 1645,
+          "y": 624,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 340,
+          "x": 1242,
+          "y": 552,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 340,
+          "x": 1120,
+          "y": 621,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 340,
+          "x": 727,
+          "y": 1022,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 340,
+          "x": 1325,
+          "y": 923,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 340,
+          "x": 1440,
+          "y": 851,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 123,
+          "x": 1039,
+          "y": 574,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 123,
+          "x": 1259,
+          "y": 463,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 123,
+          "x": 1535,
+          "y": 598,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 123,
+          "x": 1453,
+          "y": 769,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 123,
+          "x": 1638,
+          "y": 973,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 123,
+          "x": 1536,
+          "y": 774,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 123,
+          "x": 948,
+          "y": 848,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 123,
+          "x": 1156,
+          "y": 953,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 227,
+          "x": 732,
+          "y": 872,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 227,
+          "x": 1039,
+          "y": 1047,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 227,
+          "x": 1152,
+          "y": 891,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 227,
+          "x": 1642,
+          "y": 748,
+          "zOrder": 5001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -26.5566,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "width": 455,
+          "x": 999,
+          "y": 781,
+          "zOrder": 5001,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25785,6 +26580,151 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Background\\Background2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Background\\Background3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Background\\Background4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Background\\Background5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Background\\Background6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -26092,7 +27032,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Assets/Object/Key-Triangle.png",
+                      "image": "Assets\\Object\\Key-Square.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -28294,7 +29234,7 @@
                     "0",
                     "-540",
                     "1920",
-                    "1080",
+                    "1350",
                     "",
                     "",
                     ""
