@@ -22,7 +22,7 @@
     "gridWidth": 50,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.61
+    "zoomFactor": 0.31
   },
   "objectsGroups": [
     {
@@ -1846,7 +1846,7 @@
       "locked": false,
       "name": "CircleKeyCollect",
       "width": 200,
-      "x": 1010,
+      "x": 1007,
       "y": 785,
       "zOrder": 10,
       "numberProperties": [],
@@ -12710,7 +12710,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets/UI/Circle-Key-UI.png",
+                  "image": "Assets\\UI\\Key-Circle-UI.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12749,7 +12749,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets/UI/Triangle-Key-UI.png",
+                  "image": "Assets\\UI\\Key-Triangle-UI.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12788,7 +12788,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets/UI/Square-Key-UI.png",
+                  "image": "Assets\\UI\\Key-Square-UI.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12827,7 +12827,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Circle-Key.png",
+                  "image": "Assets\\Object\\Key-Circle.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12843,28 +12843,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 360,
-                        "y": 290
+                        "x": 344.2,
+                        "y": 217
                       },
                       {
-                        "x": 402,
-                        "y": 345
+                        "x": 401.8,
+                        "y": 299.4
                       },
                       {
-                        "x": 360,
-                        "y": 395
+                        "x": 349.8,
+                        "y": 397.8
                       },
                       {
-                        "x": 195,
-                        "y": 395
+                        "x": 250.6,
+                        "y": 396.2
                       },
                       {
-                        "x": 158,
-                        "y": 345
+                        "x": 204.2,
+                        "y": 305.8
                       },
                       {
-                        "x": 195,
-                        "y": 290
+                        "x": 252.2,
+                        "y": 217.8
                       }
                     ]
                   ]
@@ -12893,7 +12893,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Triangle-Key.png",
+                  "image": "Assets\\Object\\Key-Triangle.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12909,16 +12909,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 160,
-                        "y": 313
+                        "x": 281.8,
+                        "y": 259.4
                       },
                       {
-                        "x": 400,
-                        "y": 313
+                        "x": 359.4,
+                        "y": 301.8
                       },
                       {
-                        "x": 280,
-                        "y": 422
+                        "x": 279.4,
+                        "y": 419.4
+                      },
+                      {
+                        "x": 118.6,
+                        "y": 340.2
                       }
                     ]
                   ]
@@ -12947,7 +12951,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Square-Key.png",
+                  "image": "Assets\\Object\\Key-Square.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12963,20 +12967,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 210,
-                        "y": 293
+                        "x": 277.8,
+                        "y": 259.4
                       },
                       {
-                        "x": 455,
-                        "y": 293
+                        "x": 398.6,
+                        "y": 319.4
                       },
                       {
-                        "x": 340,
-                        "y": 390
+                        "x": 399.4,
+                        "y": 359.4
                       },
                       {
-                        "x": 90,
-                        "y": 390
+                        "x": 280.2,
+                        "y": 419.4
+                      },
+                      {
+                        "x": 159.4,
+                        "y": 358.6
+                      },
+                      {
+                        "x": 161,
+                        "y": 320.2
                       }
                     ]
                   ]

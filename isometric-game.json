@@ -3121,6 +3121,60 @@
         "name": "Assets\\Object\\New Ground Edge (Corner)-pipe-4Cropped.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Key-Square.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\Key-Square.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Key-Triangle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\Key-Triangle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/Key-Circle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\Key-Circle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/UI/Key-Circle-UI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\UI\\Key-Circle-UI.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/UI/Key-Triangle-UI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\UI\\Key-Triangle-UI.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/UI/Key-Square-UI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\UI\\Key-Square-UI.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
