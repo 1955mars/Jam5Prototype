@@ -246,7 +246,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\UI\\Quit Button.png",
+                  "image": "Assets/UI/Quit Button.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -434,7 +434,7 @@
               },
               "parameters": [
                 "",
-                "\"JarrettLevel\"",
+                "\"RichardLevel\"",
                 ""
               ],
               "subInstructions": []
