@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.mindaworld",
-    "projectFile": "C:\\Users\\Jarrett\\Desktop\\RIT\\Year 4 Semester 2\\Gameplay Prototyping\\Jam5Prototype\\isometric-game.json",
+    "projectFile": "/Users/richardhetley/Documents/College Work/Cloned/Jam5Prototype/isometric-game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -3353,6 +3353,114 @@
         "kind": "image",
         "metadata": "",
         "name": "Assets\\Object\\New Ground Edge (Corner)-pipe-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New Stairs(Left).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New Stairs(Left).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New Stairs(Right).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New Stairs(Right).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New Stairs(Left)-mossy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New Stairs(Left)-mossy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New Stairs(Right)-mossy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New Stairs(Right)-mossy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New-Circle-Door-Closed(Left).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New-Circle-Door-Closed(Left).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New-Door-Open(Left).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New-Door-Open(Left).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New-Circle-Door-Closed(Right).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New-Circle-Door-Closed(Right).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New-Door-Open(Right).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New-Door-Open(Right).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New-Triangle-Door-Closed(Left).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New-Triangle-Door-Closed(Left).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New-Triangle-Door-Closed(Right).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New-Triangle-Door-Closed(Right).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New-Square-Door-Closed(Left).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New-Square-Door-Closed(Left).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New-Square-Door-Closed(Right).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New-Square-Door-Closed(Right).png",
         "smoothed": true,
         "userAdded": false
       }
