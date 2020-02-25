@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.mindaworld",
-    "projectFile": "/Users/richardhetley/Documents/College Work/Cloned/Jam5Prototype/isometric-game.json",
+    "projectFile": "D:\\RIT\\GDD\\Sem2\\603 - Prototyping\\Jam5\\Jam5Prototype\\isometric-game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -3584,6 +3584,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/richardtestscene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/mansoorlevel"
     }
   ],
   "externalEvents": [],
