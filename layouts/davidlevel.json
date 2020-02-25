@@ -22,7 +22,7 @@
     "gridWidth": 50,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.358
+    "zoomFactor": 0.28
   },
   "objectsGroups": [
     {
@@ -13653,7 +13653,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Stairs(Left)Cropped.png",
+                  "image": "Assets\\Object\\New Stairs(Left)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13682,7 +13682,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Stairs(Right)Cropped.png",
+                  "image": "Assets\\Object\\New Stairs(Right)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
