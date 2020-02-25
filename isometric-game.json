@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.mindaworld",
-    "projectFile": "D:\\Documents\\College Stuff\\College Stuff\\4th Year\\Gameplay and Prototyping\\Jam 5\\Not Monument Valley\\isometric-game.json",
+    "projectFile": "D:\\RIT\\GDD\\Sem2\\603 - Prototyping\\Jam5\\Jam5Prototype\\isometric-game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -3553,13 +3553,6 @@
         "name": "Assets/UI/Quit Button.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "file": "Assets/POL-lone-wolf-short.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Assets\\POL-lone-wolf-short.wav",
-        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3578,15 +3571,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/richardlevel"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/jarrettlevel"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/mansoorscene"
+      "referenceTo": "/layouts/richardlevel"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -3595,6 +3584,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/richardtestscene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/mansoorlevel"
     }
   ],
   "externalEvents": [],

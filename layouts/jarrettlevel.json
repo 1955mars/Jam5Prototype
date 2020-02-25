@@ -22,7 +22,7 @@
     "gridWidth": 50,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.19
+    "zoomFactor": 0.25
   },
   "objectsGroups": [
     {
@@ -57,6 +57,21 @@
           "value": 4
         }
       ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 110,
+      "layer": "UI",
+      "locked": false,
+      "name": "Avatar",
+      "width": 110,
+      "x": 50,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -4596,66 +4611,6 @@
       "x": 1362,
       "y": -59,
       "zOrder": 118,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 110,
-      "layer": "UI",
-      "locked": false,
-      "name": "Avatar",
-      "width": 110,
-      "x": 13,
-      "y": 14,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 110,
-      "layer": "UI",
-      "locked": false,
-      "name": "Avatar",
-      "width": 110,
-      "x": 13,
-      "y": 14,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 110,
-      "layer": "UI",
-      "locked": false,
-      "name": "Avatar",
-      "width": 110,
-      "x": 13,
-      "y": 14,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 35.1244,
-      "customSize": true,
-      "height": 64,
-      "layer": "",
-      "locked": false,
-      "name": "End",
-      "width": 298,
-      "x": 3534,
-      "y": -1324,
-      "zOrder": 10000001,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -16510,45 +16465,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "End",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewFile-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "events": [
@@ -16558,7 +16474,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Key collection and door behavior",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -17907,7 +17823,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Collision handling",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -18088,16 +18004,6 @@
                 "BetterMovableObstacleNotCD"
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "End"
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -18136,42 +18042,6 @@
             }
           ],
           "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Minda",
-                "End",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"MansoorScene\"",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
         }
       ],
       "parameters": []
@@ -18182,7 +18052,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Camera",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -18234,7 +18104,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Obstacle Collisions",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18489,7 +18359,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Better Obstacles",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -18996,7 +18866,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "ButtonA",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20184,7 +20054,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "ButtonB",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21383,7 +21253,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Collision",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -22571,7 +22441,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Collision",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -22643,7 +22513,7 @@
                       "colorR": 74,
                       "creationTime": 0,
                       "disabled": false,
-                      "folded": false,
+                      "folded": true,
                       "name": "Move Ground",
                       "source": "",
                       "type": "BuiltinCommonInstructions::Group",
@@ -23125,7 +22995,7 @@
                       "colorR": 74,
                       "creationTime": 0,
                       "disabled": false,
-                      "folded": false,
+                      "folded": true,
                       "name": "Better Ground",
                       "source": "",
                       "type": "BuiltinCommonInstructions::Group",
