@@ -64,8 +64,8 @@
       "locked": false,
       "name": "Tilebg",
       "width": 2400,
-      "x": 0,
-      "y": -1500,
+      "x": 4,
+      "y": -1498,
       "zOrder": 5,
       "numberProperties": [
         {
@@ -2407,21 +2407,6 @@
       "initialVariables": []
     },
     {
-      "angle": 26.5566,
-      "customSize": true,
-      "height": 32,
-      "layer": "",
-      "locked": false,
-      "name": "Obstacle",
-      "width": 455,
-      "x": 966,
-      "y": -161,
-      "zOrder": 5001,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 0,
       "customSize": false,
       "height": 0,
@@ -2462,6 +2447,66 @@
       "x": 373,
       "y": 98,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 26.5566,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "Obstacle",
+      "width": 340,
+      "x": 1056,
+      "y": -144,
+      "zOrder": 5001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 52,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "Obstacle",
+      "width": 185,
+      "x": 790,
+      "y": -230,
+      "zOrder": 5001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 52,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "Obstacle",
+      "width": 185,
+      "x": 927,
+      "y": -284,
+      "zOrder": 5001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -29,
+      "customSize": true,
+      "height": 100,
+      "layer": "",
+      "locked": false,
+      "name": "End",
+      "width": 172,
+      "x": 805,
+      "y": -381,
+      "zOrder": 5002,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -13044,6 +13089,45 @@
           ]
         }
       ]
+    },
+    {
+      "name": "End",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewFile-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -13053,7 +13137,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Key collection and door behavior",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14350,7 +14434,7 @@
       "creationTime": 0,
       "disabled": false,
       "folded": true,
-      "name": "Stair behavior",
+      "name": "Stair/end behavior",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -14366,8 +14450,38 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Just an ordinary run-of-the-mill hardcoded scene transition",
+          "comment": "Just an ordinary run-of-the-mill hardcoded scene transition, connected to an \"obstacle\"-derived object instead of the stairs",
           "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "End"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
           "disabled": false,
@@ -14380,7 +14494,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Stairs",
+                "End",
                 "Minda",
                 "",
                 "",
@@ -14750,6 +14864,21 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Handle collision (no condition is necessary, the action takes care of handling everything)",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -14776,21 +14905,6 @@
             }
           ],
           "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Handle collision (no condition is necessary, the action takes care of handling everything)",
-          "comment2": ""
         },
         {
           "disabled": false,

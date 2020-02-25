@@ -22,7 +22,7 @@
     "gridWidth": 50,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.82
+    "zoomFactor": 0.46
   },
   "objectsGroups": [
     {
@@ -16740,7 +16740,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Collision handling",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

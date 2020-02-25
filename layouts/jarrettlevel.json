@@ -12,7 +12,7 @@
   "title": "Game",
   "v": 49,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridB": 255,
     "gridG": 180,
     "gridHeight": 50,
@@ -20,9 +20,9 @@
     "gridOffsetY": 0,
     "gridR": 158,
     "gridWidth": 50,
-    "snap": false,
+    "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.25
+    "zoomFactor": 0.826
   },
   "objectsGroups": [
     {
@@ -513,8 +513,8 @@
       "locked": false,
       "name": "ButtonA",
       "width": 75,
-      "x": 307,
-      "y": -288,
+      "x": 73,
+      "y": -477,
       "zOrder": 1,
       "numberProperties": [
         {
@@ -793,8 +793,8 @@
       "locked": false,
       "name": "ButtonB",
       "width": 75,
-      "x": 461,
-      "y": -347,
+      "x": 252,
+      "y": -568,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -848,8 +848,8 @@
       "locked": false,
       "name": "ButtonC",
       "width": 75,
-      "x": 561,
-      "y": -362,
+      "x": 424,
+      "y": -646,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -863,8 +863,8 @@
       "locked": false,
       "name": "ButtonD",
       "width": 75,
-      "x": 665,
-      "y": -388,
+      "x": 612,
+      "y": -691,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -1573,8 +1573,8 @@
       "locked": false,
       "name": "TriangleDoorLeft",
       "width": 0,
-      "x": 3045,
-      "y": -1356,
+      "x": 3050,
+      "y": -1350,
       "zOrder": 115,
       "numberProperties": [],
       "stringProperties": [],
@@ -1734,7 +1734,7 @@
       "name": "SquareDoorLeft",
       "width": 0,
       "x": 3250,
-      "y": -1555,
+      "y": -1550,
       "zOrder": 117,
       "numberProperties": [],
       "stringProperties": [],
@@ -4611,6 +4611,51 @@
       "x": 1362,
       "y": -59,
       "zOrder": 118,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 123.5,
+      "customSize": true,
+      "height": 66,
+      "layer": "",
+      "locked": false,
+      "name": "Obstacle",
+      "width": 169,
+      "x": 3679,
+      "y": -1246,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 123.5,
+      "customSize": true,
+      "height": 66,
+      "layer": "",
+      "locked": false,
+      "name": "Obstacle",
+      "width": 169,
+      "x": 3519,
+      "y": -1325,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 29,
+      "customSize": true,
+      "height": 100,
+      "layer": "",
+      "locked": false,
+      "name": "End",
+      "width": 172,
+      "x": 3659,
+      "y": -1393,
+      "zOrder": 5002,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -14184,7 +14229,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Circle-Door-Closed(Left).png",
+                  "image": "Assets/Object/New-Circle-Door-Closed(Left).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14232,7 +14277,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Door-Open(Left).png",
+                  "image": "Assets/Object/New-Door-Open(Left).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14396,7 +14441,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Triangle-Door-Closed(Left).png",
+                  "image": "Assets/Object/New-Triangle-Door-Closed(Left).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14444,7 +14489,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Door-Open(Left).png",
+                  "image": "Assets/Object/New-Door-Open(Left).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14608,7 +14653,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Square-Door-Closed(Left).png",
+                  "image": "Assets/Object/New-Square-Door-Closed(Left).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14656,7 +14701,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Door-Open(Left).png",
+                  "image": "Assets/Object/New-Door-Open(Left).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14820,7 +14865,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Stairs(Left)Cropped.png",
+                  "image": "Assets/Object/New Stairs(Left)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14849,7 +14894,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Object\\Stairs(Right)Cropped.png",
+                  "image": "Assets/Object/New Stairs(Right)Cropped.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16428,6 +16473,45 @@
       ]
     },
     {
+      "name": "End",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewFile-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "VMovableObstacleCD",
       "tags": "",
       "type": "Sprite",
@@ -17496,6 +17580,101 @@
       "creationTime": 0,
       "disabled": false,
       "folded": true,
+      "name": "Stair/end behavior",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Just an ordinary run-of-the-mill hardcoded scene transition, connected to an \"obstacle\"-derived object instead of the stairs",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "End"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "End",
+                "Minda",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"MansoorLevel\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": true,
       "name": "Player controls",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -17831,6 +18010,21 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Handle collision (no condition is necessary, the action takes care of handling everything)",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -18007,21 +18201,6 @@
             }
           ],
           "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Handle collision (no condition is necessary, the action takes care of handling everything)",
-          "comment2": ""
         },
         {
           "disabled": false,

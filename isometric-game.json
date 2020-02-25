@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.mindaworld",
-    "projectFile": "D:\\RIT\\GDD\\Sem2\\603 - Prototyping\\Jam5\\Jam5Prototype\\isometric-game.json",
+    "projectFile": "/Users/richardhetley/Documents/College Work/Cloned/Jam5Prototype/isometric-game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -3553,6 +3553,24 @@
         "name": "Assets/UI/Quit Button.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New Stairs(Left)Cropped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New Stairs(Left)Cropped.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New Stairs(Right)Cropped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/Object/New Stairs(Right)Cropped.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
