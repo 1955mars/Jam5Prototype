@@ -3373,6 +3373,78 @@
         "name": "Assets\\Object\\New Stairs(Left)Cropped.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New-Circle-Door-Closed(Left).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\New-Circle-Door-Closed(Left).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New-Door-Open(Left).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\New-Door-Open(Left).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New-Triangle-Door-Closed(Right).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\New-Triangle-Door-Closed(Right).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New-Door-Open(Right).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\New-Door-Open(Right).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New-Square-Door-Closed(Left).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Object\\New-Square-Door-Closed(Left).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/UI/TitleScreen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\UI\\TitleScreen.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/UI/Start Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\UI\\Start Button.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/UI/Quit Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\UI\\Quit Button.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3387,15 +3459,19 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/jarrettlevel"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/richardlevel"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/davidlevel"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/jarrettlevel"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

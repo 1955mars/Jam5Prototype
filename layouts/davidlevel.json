@@ -22,7 +22,7 @@
     "gridWidth": 50,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.28
+    "zoomFactor": 0.82
   },
   "objectsGroups": [
     {
@@ -3443,6 +3443,51 @@
       "width": 152,
       "x": 838,
       "y": -182,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 153.5,
+      "customSize": true,
+      "height": 100,
+      "layer": "",
+      "locked": false,
+      "name": "End",
+      "width": 172,
+      "x": 972,
+      "y": -995,
+      "zOrder": 123,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 55.5,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "Obstacle",
+      "width": 344,
+      "x": 977,
+      "y": -982,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 55.5,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "Obstacle",
+      "width": 344,
+      "x": 814,
+      "y": -905,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -13017,7 +13062,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Circle-Door-Closed(Left).png",
+                  "image": "Assets\\Object\\New-Circle-Door-Closed(Left).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13065,7 +13110,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Door-Open(Left).png",
+                  "image": "Assets\\Object\\New-Door-Open(Left).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13335,7 +13380,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Triangle-Door-Closed(Right).png",
+                  "image": "Assets\\Object\\New-Triangle-Door-Closed(Right).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13383,7 +13428,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Door-Open(Right).png",
+                  "image": "Assets\\Object\\New-Door-Open(Right).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13441,7 +13486,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Square-Door-Closed(Left).png",
+                  "image": "Assets\\Object\\New-Square-Door-Closed(Left).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13489,7 +13534,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Assets/Object/Door-Open(Left).png",
+                  "image": "Assets\\Object\\New-Door-Open(Left).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15298,6 +15343,45 @@
           ]
         }
       ]
+    },
+    {
+      "name": "End",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewFile-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -16656,7 +16740,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Collision handling",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -16837,6 +16921,16 @@
                 "BetterMovableObstacleNotCD"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "End"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -16870,6 +16964,42 @@
               "parameters": [
                 "Minda",
                 "Obstacle"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Minda",
+                "End",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
               ],
               "subInstructions": []
             }
