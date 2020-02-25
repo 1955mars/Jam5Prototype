@@ -3555,11 +3555,13 @@
         "userAdded": false
       },
       {
-        "file": "Assets/POL-lone-wolf-short.wav",
-        "kind": "audio",
+        "alwaysLoaded": false,
+        "file": "Assets/Object/New Stairs(Left)Cropped.png",
+        "kind": "image",
         "metadata": "",
-        "name": "Assets\\POL-lone-wolf-short.wav",
-        "userAdded": true
+        "name": "Assets/Object/New Stairs(Left)Cropped.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
